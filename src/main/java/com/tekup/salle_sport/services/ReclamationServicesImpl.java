@@ -21,11 +21,11 @@ public class ReclamationServicesImpl implements ReclamationServices{
 		return reclamationRepository.save(R);
 	}
 
-	@Override
-	public void deleteReclamation(Reclamation R) {
-		reclamationRepository.delete(R);
-		
-	}
+	 @Override
+	    public void deleteReclamationById(Long id) {
+	        reclamationRepository.deleteById(id);
+	    }
+
 
 	@Override
 	public Reclamation getReclamation(Long id) {

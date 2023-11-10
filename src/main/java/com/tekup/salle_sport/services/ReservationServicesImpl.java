@@ -21,11 +21,10 @@ public class ReservationServicesImpl implements ReservationServices{
 		return reservationRepository.save(C);
 	}
 
-	@Override
-	public void deleteReservation(Reservation C) {
-		reservationRepository.delete(C);
-		
-	}
+	 @Override
+	    public void deleteReservationById(Long id) {
+	        reservationRepository.deleteById(id);
+	    }
 
 	@Override
 	public Reservation getReservation(Long id) {
