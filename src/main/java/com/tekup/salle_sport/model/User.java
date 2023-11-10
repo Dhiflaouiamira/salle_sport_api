@@ -3,6 +3,7 @@ package com.tekup.salle_sport.model;
 
 
 import java.util.Collection;
+
 import java.util.List;
 
 import javax.persistence.CascadeType;

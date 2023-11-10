@@ -85,6 +85,11 @@
 
         <!-- Add your other dependencies here -->
 
+        <dependency>
+        	<groupId>com.tekup</groupId>
+        	<artifactId>ProjectErh</artifactId>
+        	<version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
     <build>
